@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    color: #F9FAF8;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    flex-basis: 450px;
+}
+
+.buttons {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin: 0px;
+}
+
+.text,
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+.main img {
+    height: auto;
+    width: 400px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin: 0 500px;
+}
+
+.bundle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info img {
+    height: 130px;    
+    width: auto;
+    border: solid #3882F6 1px;
+    border-radius: 15px;
+}
+
+.info-main {
+    font-size: 36px;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 100px 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quoter {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.end-container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: #3882F6;
+    padding: 40px 50px;
+    margin: 80px 180px;
+    border-radius: 10px;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.subtitle {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.end-container > button {
+    border: solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color: #E5E7EB;
+}
